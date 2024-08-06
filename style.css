@@ -1,0 +1,145 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+html,body {
+  height: 100%;
+  overflow-x: hidden;
+}
+#home {
+  height: 100%;
+}
+body {
+  background: url("../imagens/capa.png"),
+                url("../imagens/ruido.png"),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed;
+}
+.nav-transp{
+   background-color: rgba(0,0,0, 0.6);
+   padding:  15px 0;
+}
+ .navbar-light .navbar-nav .nav-link {
+   color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9bf0e1;
+}
+.navbar-light .navbar-toggler {
+border: 1px solid white;
+}
+.navbar-light .navbar-nav li.d{
+  width: 1px;
+  color: #ffffff;
+  background-color: white;
+  margin: 12px 15px;
+}
+.mpt {
+  text-align: center;
+  color: white;
+
+}
+
+.mpt h1 {
+  font-weight: bold;
+  margin: 50px 0px;
+  letter-spacing: -0.05em ;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0,04em;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0,04em;
+}
+.p1 {
+  color: #7c26f8;
+}
+.mpt a{
+  text-decoration: none;
+  padding: 1%;
+  margin: 5px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 40px;
+  font-size: 12pt;
+  font-weight: bold; 
+} 
+.btn1 {
+  background:   #7c45fc70;
+}
+p{
+  text-align: justify;
+}
+.mpt a:hover {
+  color: #9bf0e1;
+}
+#services {
+  padding: 50px 0px;
+  background-color: white;
+}
+
+#recursos {
+  padding: 50px 0px;
+  color: white;
+
+}
+#recursos h3 {
+  color: #9bf0e1
+}
+.rotet {
+  transform: rotate(30deg);
+  padding-left: 70px;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.801);
+  padding: 10px 0;
+  position: relative;
+  
+}
+
+footer div.container div.row div ul li a {
+  color: white;
+}
+
+footer .redes ul li {
+  display: inline-block;
+  
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
+
+  }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) { 
+  .mpt h1 {
+    font-size: 3em;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px)
+ */@media (min-width: 991.98px) { 
+  .mpt h1 {
+    font-size: 4em;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px)
+ */@media (min-width: 1199.98px) {
+  .mpt h1 {
+    font-size: 5em;
+  }
+}
+
+/* // X-Large devices (large desktops, less than 1400px)
+ */@media (min-width: 1399.98px) { 
+  .mpt h1 {
+    font-size: 6em;
+  }
+}
