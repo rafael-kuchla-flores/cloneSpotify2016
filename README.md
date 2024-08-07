@@ -19,3 +19,9 @@ Este projeto é um clone do site do Spotify de 2016, desenvolvido utilizando HTM
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. **Veja como ficou através do Git Hub Pages**:
+   ```bash
+    https://rafael-kuchla-flores.github.io/cloneSpotify2016/
+   ```
